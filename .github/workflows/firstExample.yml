@@ -20,3 +20,11 @@ jobs:
       #  run: ls
       #- name: read file from repo
       #  run: cat testfile
+  secNd_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second_job
+        run: echo "second machine run"
+
+
+
